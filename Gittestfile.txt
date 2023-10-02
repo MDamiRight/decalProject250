@@ -3,12 +3,6 @@ Elijah Pearce Made this
 Software Architecture Component Definitions
                                                         User Class
 
-Purpose of the user class is to initialize new users, allow them to login to, logout of, and register accounts for our  case making website. It also stores the user's email, username, and passwords. There are 3 methods in this class which are Login(), Logout(), and register(). 
-	
-Register() asks the users for an email, username, and password. If all 3 are valid, then 	an email is sent to the user’s chosen email    address, which they most verify. After that all the users information is stored in the user database. If any of the 3 are invalid then a prompt will show up stating the invalid input. 
-
-Login() takes the username and password of the user and verifies whether they are both correct and in the user database. If both are, then Login() logs the user into the website. If either is wrong a prompt appears that tells the user that either the username or password is invalid. 
-
-Logout()  logs the user out of the website.  
+Purpose of the user class is to initialize new users, allow them to login to, logout of, and register accounts for our  case making website. It also stores the user's email, username, and passwords. There are 3 methods in this class which are Login(), Logout(), and register(). Register() asks the users for an email, username, and password. If all 3 are valid, then an email is sent to the user’s chosen email    address, which they most verify. After that all the users information is stored in the user database. If any of the 3 are invalid then a prompt will show up stating the invalid input. Login() takes the username and password of the user and verifies whether they are both correct and in the user database. If both are, then Login() logs the user into the website. If either is wrong a prompt appears that tells the user that either the username or password is invalid. Logout()  logs the user out of the website.  
                                                   
                                                     End of User Class
