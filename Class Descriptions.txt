@@ -1,0 +1,12 @@
+Cart
+
+The cart class will be the primary class used to store the items a user has inside their cart. It can be used as a way to organize all their potential purchases prior to checkout. The only data contained in this class is a list of items a user has selected. Amongst that, there are functions of adding and removing items from this block of data as well a function to finally checkout. As every user is equipped with the potential to purchase, this class will be a member of every user.
+
+Payment
+
+This class, or moreso struct, is a collection of data required to make a purchase. Our service only allows payments through direct credit card information. Therefore, this class contains the data required for such a purchase to be made. This is made into a class to allow the possibiltiy to expand payment options in the future. The user class will also store a list of payments, allowing the user to choose a prefered payment at checkout.
+
+
+Shipping
+
+Just like the payment class/struct, this collection of data will be the necessary information to ship products to users after a purchase has been made. The user class stores a list of this class to allow for multiple shipping addresses to be stored and chosen at checkout.
