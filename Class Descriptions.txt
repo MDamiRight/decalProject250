@@ -18,14 +18,10 @@ Purpose of the user class is to initialize new users, allow them to login to, lo
 -Login() takes the username and password of the user and verifies whether they are both correct and in the user database. If both are, then Login()  logs the user into the website. If either is wrong a prompt appears that tells the user that either the username or password is invalid. 
 -Logout()  logs the user out of the website.  
 
-Item
-
-Purpose of the item class is to store all the information of each case into the product database. The information stored is the name of the case, a picture of the case, description of the case, the price, and which items the case is compatible with. This information is stored under 5 variables, name, picture, description, price, and compatibility. 
-
 Items: This class is used to make an object of class Item that 
 has several variables that hold data for those items. These Items are the products that the website are advertising.
 - string name; This is the name of the product.
-- int price; Holds the price of the product.
+- double price; Holds the price of the product.
 - string description; This is a variable that hold the destription of the produc.
 - bool customisable; This is a variable that flags true or false if the product can be customised by the user.
 - image; This is a variable tht holds the image data for the product; *Not sure how to type this.
