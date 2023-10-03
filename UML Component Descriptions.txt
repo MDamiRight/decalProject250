@@ -21,3 +21,23 @@ The Choose Device Page link is available on the landing page. It is a page that 
 Result Page
 
 The result page is the page that the user will be linked to after they use the search bar or the Choose Device Page. The page will contain all of the products that are available that fit the search criteria of the users search input. If no product can be found that matches the search, “No result” will be displayed on the page. 
+
+Login: This is a page that the user is redirected to from the landing page.
+On the Login page the user may enter their Username / eMail and Password or 
+to register an account for the website. The reason we would want a Login page 
+is to help users who repeatiely use the website to make purchesea faster by 
+saving their own persaniled information as an account in the UserDatabase.
+
+User Database: This is the seerver that holds the information of each registered 
+account for the website. Each account has a username, email, password. This information 
+helps assign a user to shipping address and a payment information. This server gets the information from the Login page.
+
+Cart: This page is used to record and show the user what they plan on purchasing 
+as well as the accumulated price of all the items they have purchased. The User may 
+add or take away products from their cart as they want.
+
+Laptops: This is a page that is dedicated to showing the customer products that are accociated 
+to laptops. The user may add items from this page to the cart. This page can be accessed from the choose device page.
+
+Cellphones: This is a page that is dedicated to showing the customer products that are accociated 
+to cellphones. The user may add items from this page to the cart. This page can be accessed from the choose device page.
