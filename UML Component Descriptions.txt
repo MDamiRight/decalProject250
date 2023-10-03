@@ -1,1 +1,23 @@
+Landing Page 
 
+The homepage of the website. On this page the user has links to login/register, to the users own cart, the search bar, the gallery, and the choose device page. 
+
+Gallery
+
+On the landing page there will be a gallery of the top products being purchased. There will be a picture of the product which also acts as a link to the products page 
+
+Product Database
+
+The database that stores all of the cases being sold, their names, prices, descriptions, what device each case is compatible with.
+
+Search Bar
+
+The search bar is available on the landing page. When clicked on it will allow the user to type the product or device that they want to search for. The search bar will then send the user to a results page that will contain all of the products that contain the user’s inputs. If the user types in a device, all of the products that are available for the device will be linked to on the result page. 
+
+Choose Device Page
+
+The Choose Device Page link is available on the landing page. It is a page that has all of the devices that we provide cases for. When you click on a device on the page, it will link to a results page that contains links for all of the products available for said device. 
+
+Result Page
+
+The result page is the page that the user will be linked to after they use the search bar or the Choose Device Page. The page will contain all of the products that are available that fit the search criteria of the users search input. If no product can be found that matches the search, “No result” will be displayed on the page. 
