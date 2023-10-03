@@ -1,10 +1,6 @@
 Landing Page 
 
-The homepage of the website. On this page the user has links to login/register, to the users own cart, the search bar, the gallery, and the choose device page. 
-
-Gallery
-
-On the landing page there will be a gallery of the top products being purchased. There will be a picture of the product which also acts as a link to the products page 
+The homepage of the website. On this page the user has links to login/register, to the users own cart, the search bar, the gallery, and the choose device page.  
 
 Product Database
 
@@ -41,3 +37,13 @@ to laptops. The user may add items from this page to the cart. This page can be 
 
 Cellphones: This is a page that is dedicated to showing the customer products that are accociated 
 to cellphones. The user may add items from this page to the cart. This page can be accessed from the choose device page.
+
+Products / Customization: This page holds a list of the products and allows the user to change the designs, textures, and import designs for the products. 
+
+Shipping: This page allows the user to enter their desigered address that they want the product delivered to. 
+
+Payment: This is the page that allows the user to enter their payment information into the page in order to purchase the products.
+
+Payment DB: This is a Data Base that holds the payment methods for registered users and temperarialy holds it for guests.
+
+Confirmation: This page shows the user all the products they wish to buy, the desiered shipping address, the payment method, and total price in order to make sure that everything is ok by the user.
