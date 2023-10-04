@@ -1,10 +1,10 @@
 Landing Page 
 
-The homepage of the website. On this page the user has links to login/register, to the users own cart, the search bar, the gallery, and the choose device page.  
+The homepage of the website. On this page, the user has links to login/register, to the users own cart, the search bar, the gallery, and the choose device page.  
 
 Product Database
 
-The database that stores all of the cases being sold, their names, prices, descriptions, what device each case is compatible with.
+The database that stores all of the cases being sold, their names, prices, descriptions, and what device each case is compatible with.
 
 Search Bar
 
@@ -16,17 +16,17 @@ The Choose Device Page link is available on the landing page. It is a page that 
 
 Result Page
 
-The result page is the page that the user will be linked to after they use the search bar or the Choose Device Page. The page will contain all of the products that are available that fit the search criteria of the users search input. If no product can be found that matches the search, “No result” will be displayed on the page. 
+The result page is the page that the user will be linked to after they use the search bar or the Choose Device Page. The page will contain all of the the available products that fit the search criteria of the user's search input. If no product can be found that matches the search, “No result” will be displayed on the page. 
 
 Login: This is a page that the user is redirected to from the landing page.
-On the Login page the user may enter their Username / eMail and Password or 
-to register an account for the website. The reason we would want a Login page 
-is to help users who repeatiely use the website to make purchesea faster by 
-saving their own persaniled information as an account in the UserDatabase.
+On the Login page, the user may enter their Username/e-mail and Password or 
+register an account for the website. The reason we would want a Login page 
+is to help users who repeatedly use the website to make purchases faster by 
+saving their personal information as an account in the UserDatabase.
 
-User Database: This is the seerver that holds the information of each registered 
-account for the website. Each account has a username, email, password. This information 
-helps assign a user to shipping address and a payment information. This server gets the information from the Login page.
+User Database: This is the server that holds the information of each registered 
+account for the website. Each account has a username, email, and password. This information 
+helps assign a user to a shipping address and payment information. This server gets the information from the Login page.
 
 Cart: This page is used to record and show the user what they plan on purchasing 
 as well as the accumulated price of all the items they have purchased. The User may 
@@ -38,13 +38,13 @@ to laptops. The user may add items from this page to the cart. This page can be 
 Cellphones: This is a page that is dedicated to showing the customer products that are associated 
 to cellphones. The user may add items from this page to the cart. This page can be accessed from the choose device page.
 
-Tablets: This page is dedicated to showing the customer products that are associated with tablets. The user can add products their carts on this page. 
+Tablets: This page is dedicated to showing the customer products that are associated with tablets. The user can add products to their carts on this page. 
 This page can be accessed from the choose device page.
 
-Game consoles: This page is dedicated to showing the customer products that are associated with game consoles. The user can add products their carts on this page. 
+Game consoles: This page is dedicated to showing the customer products that are associated with game consoles. The user can add products to their carts on this page. 
 This page can be accessed from the choose device page.
 
-Designs: This field is dedicated to showing the customer basic colors or default designs so that they can choose it for any case. 
+Designs: This field is dedicated to showing the customer basic colors or default designs so that they can choose one for any case. 
 This page can be accessed from the Product/Customization page.
 
 Textures: This field is dedicated to showing the customer all the available textures and that they can choose one for any case. 
@@ -53,15 +53,15 @@ This page can be accessed from the Product/Customization page.
 Slim/Bulky: This field is dedicated to showing the customer all the available slim and bulky cases and that they can choose one for any device. 
 This page can be accessed from the Product/Customization page.
 
-User-imported design: This field is dedicated to allowing the customer to import a jpeg picture so that they can put it in any device.
+User-imported design: This field is dedicated to allowing the customer to import a JPEG picture so that they can put it on any device.
 This page can be accessed from the Product/Customization page.
 
 Products / Customization: This page holds a list of the products and allows the user to change the designs, textures, and import designs for the products. 
 
-Shipping: This page allows the user to enter their desigered address that they want the product delivered to. 
+Shipping: This page allows the user to enter the desired address that they want the product delivered to. 
 
 Payment: This is the page that allows the user to enter their payment information into the page in order to purchase the products.
 
-Payment DB: This is a Data Base that holds the payment methods for registered users and temperarialy holds it for guests.
+Payment DB: This is a database that holds the payment methods for registered users and temporarily holds it for guests.
 
-Confirmation: This page shows the user all the products they wish to buy, the desiered shipping address, the payment method, and total price in order to make sure that everything is ok by the user.
+Confirmation: This page shows the user all the products they wish to buy, the desired shipping address, the payment method, and the total price in order to make sure that everything is okay by the user.
