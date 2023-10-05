@@ -1,6 +1,6 @@
-Cart
+User
 
-The cart class will be the primary class used to store the items a user has inside their cart. It can be used as a way to organize all their potential purchases before checkout. The only data contained in this class is a list of items a user has selected. Amongst that, there are functions for adding and removing items from this block of data as well as a function to finally checkout. As every user is equipped with the potential to purchase, this class will be a member of every user.
+The purpose of the user class is to initialize new users and allow them to log in to, log out of, and register accounts. This class is also utilized to manage the activity of a particular user. Their acitivty can span from modifying their cart, login credentials, payment options, or shipping options. This class comes equiped with the data necessary to store a users login in a safe way. A user's username will be stored in a string whereas the password will be sent as a salted hashed from the user to allow for the safe storing of passwords. In the event a data leak occurs, the user's true password won't be exposed. Amongst the login credentials, there are instances of the following classes: Payment, Shipping, and Cart. Payment and Shipping instances are stored in a list to allow for multiple options from the user while the Cart instance exists as a single instance for every User. Function wise, this class can login, logout, and register a user.
 
 Payment
 
@@ -10,30 +10,14 @@ Shipping
 
 Just like the payment class/struct, this collection of data will be the necessary information to ship products to users after a purchase has been made. The user class stores a list of this class to allow for multiple shipping addresses to be stored and chosen at checkout.
 
-User
+Cart
 
-The purpose of the user class is to initialize new users and allow them to log in to, log out of, and register accounts for our case making website. It also stores the user's email, username, and password. There are 3 methods in this class which are Login(), Logout(), and register(). 
--Register() asks the users for an email, username, and password. If all 3 are valid, then an email is sent to the user’s chosen email address, which they must verify. After that, all the user information is stored in the user database. If any of the 3 are invalid then a prompt will show up stating the invalid input. 
--Login() takes the username and password of the user and verifies whether they are both correct and in the user database. If both are, then Login()  logs the user into the website. If either is wrong a prompt appears that tells the user that either the username or password is invalid. 
--Logout()  logs the user out of the website.  
+The cart class will be the primary class used to store the items a user has inside their cart. It can be used as a way to organize all their potential purchases before checkout. The only data contained in this class is a map of items a user has selected. A map is used for quick lookup times and the ability to increase/decrease quantity of a particular item. Amongst this, there are functions for adding and removing items from this block of data as well as a function to finally checkout which returns if the checkout was successful or not. As every user is equipped with the potential to purchase, this class will be a member of every user.
 
-Items: This class is used to make an object of class Item that 
-has several variables that hold data for those items. These items are the products that the website is advertising.
-- string name; This is the name of the product.
-- double price; Holds the price of the product.
-- string description; This is a variable that holds the description of the product.
-- bool customizable; This is a variable that flags true or false if the product can be customized by the user.
-- image; This is a variable that holds the image data for the product; *Not sure how to type this.
+Item
 
-- Items makeItem(string a, int b, string c, bool d, *e); this is a method that creats item objects.
+This class, similar to a struct, contains the data that every item listed on the website will need. This data includes the name, description, price, and device type. On top of this, this class inherits the class Customizable as every Item we provide is considered customizable. This class also contains a customize function in which a Customizable class is passed. A function is used here to ensure that the requested customization is actually possible with the specific item calling it.
 
-Customize: This class is to both hold information and allow the user to make changes to the information on the product. This Class is specialised from Items.
-- string caseType[]; This is a string array that holds the names of various case types the user would select from.
-- string texture[]; This is a string array that holds the names of various textures the user would select from.
-- string design[]; This is a string array that holds the names of various designs the user would select from.
+Customizable
 
-- Customize customize(); This class allows the user to select from the array what case type, texture, or design for their product. 
-- void addCasetype(); This class is used to create the customization array for caseType and then fill it with options; 
-- void addDesign(); This class is used to create the customization array for Design and then fill it with options; 
-- void addTexture(); This class is used to create the customization array for Texture and then fill it with options; 
-
+This class allows for the further customization of specific items. As every item we sell allows for customization, this class will be inherited by the class Item. The possible types of customization include design, texture, and case type specific choices. These values are stored as enums as we specific options for each. Inheritance is also used here to allow for the modularity object orientation provides; this modularity allows for the ease of changing/adding customizable features to items.
